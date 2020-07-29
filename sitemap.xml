@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://union-new-energy.com/contact.html</loc>
+<loc>https://union-new-energy.com/contact/</loc>
+</url>
+<url>
+<loc>https://union-new-energy.com/services/diesel-generator-support/</loc>
+</url>
+<url>
+<loc>https://union-new-energy.com/services/energy-performance-contracts/</loc>
+</url>
+<url>
+<loc>https://union-new-energy.com/services/green-energy/</loc>
 </url>
 <url>
 <loc>https://union-new-energy.com/</loc>

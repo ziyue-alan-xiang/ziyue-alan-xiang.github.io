@@ -114,4 +114,33 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .btn-lg { font-size: 16px; padding: 25px 35px; }
 
-/*# sourceMappingURL=main.css.map */
+.cn-cali-font { font-family: 'Ma Shan Zheng'; font-size: 120%; }
+
+nav[data-toggle="toc"] { top: 70px; }
+
+/* small screens */
+@media (max-width: 768px) { /* override stickyness so that the navigation does not follow scrolling */ nav[data-toggle="toc"] { margin-bottom: 42px; position: static; } /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */ nav[data-toggle='toc'] .nav .nav { display: block; } }
+
+.union-index-card { margin-left: auto; margin-right: auto; width: 70%; }
+
+@media (max-width: 768px) { .union-index-card { width: 80%; } }
+
+.carousel-indicators li { background-color: #505050 !important; }
+
+.carousel-control-prev-icon, .carousel-control-next-icon { filter: invert(100%); opacity: .5; }
+
+.union-company-string { font-family: 'Open Sans', 'Helvetica Neue', 'Noto Sans SC', Helvetica, Arial, sans-serif; font-weight: 700; color: #495057; letter-spacing: -0.06em; }
+
+.footer-link-logo { display: inline-block; height: 40px; width: auto; }
+
+.footer-ipcc-logo svg { display: inline-block; height: 40px; fill: #5492cd; }
+
+.footer-un-text { font-family: 'Open Sans', 'Helvetica Neue', 'Noto Sans SC', Helvetica, Arial, sans-serif; font-weight: 700; color: #868e96; font-size: 0.6rem; white-space: nowrap; text-align: left; }
+
+.footer-links-title { font-family: 'Open Sans', 'Helvetica Neue', 'Noto Sans SC', Helvetica, Arial, sans-serif; font-weight: 700; color: #adb5bd; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 10px; letter-spacing: 0.2em; }
+
+#footer-links a { display: inline-block; margin-right: 10px; margin-bottom: 20px; vertical-align: text-top; }
+
+#footer-links a:hover { text-decoration: none; }
+
+/*# sourceMappingURL=union-styles.css.map */
